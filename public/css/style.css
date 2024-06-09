@@ -1,0 +1,25 @@
+.loginform {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    margin: 10px auto;
+}
+
+.loginform h3 {
+    text-align: center;
+}
+
+.login {
+    background-color: #202338;
+    color: white;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.loginerror {
+    color:red;
+    font-size: 12px;
+    line-height: 1px;
+    font-weight: lighter;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Add header and navigation -->
+    
+        <div class="navmain">
+
+            <main>
+                <form class="loginform" method="post" action="/adminwelcome">
+                    <h3>Login</h3>
+                    <% if (typeof (msg) != 'undefined'){%>
+                        <p class="loginerror"> <%=msg %> </p>
+                    <%}%>
+                    <label for="username">Username</label>
+                    <input type="text" name="username"><br>
+                    <label for="password">Password</label>
+                    <input type="password" name="password"><br>
+                    <input class="login" type="submit" value="Submit">
+                </form>
+            </main>
+        </div>
+        <!-- Add footer -->
+</body>
+</html>
